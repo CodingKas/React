@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 
-function App() {
+const App = () => {
   const [task, setTask] = useState("");
   const [tasks, setTasks] = useState([]);
 
@@ -47,6 +47,6 @@ function App() {
       </ul>
     </div>
   );
-}
+};
 
 export default App;

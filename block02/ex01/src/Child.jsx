@@ -1,9 +1,9 @@
 import React from "react";
 
-function Child(props) {
+function Child(name) {
   return (
     <div>
-      <p>Hello {props.name}, I am the child component!</p>
+      <p>Hello {name}, I am the child component!</p>
     </div>
   );
 }

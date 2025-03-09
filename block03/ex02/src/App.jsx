@@ -4,7 +4,7 @@ import PasswordInput from "./PasswordInput.jsx";
 import SubmitButton from "./SubmitButton.jsx";
 import "./index.css";
 
-function App() {
+const App = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -20,6 +20,6 @@ function App() {
       <SubmitButton onSubmit={handleSubmit} />
     </div>
   );
-}
+};
 
 export default App;

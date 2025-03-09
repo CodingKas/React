@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function App() {
+const App = () => {
   const [userData, setUserData] = useState("no data provided!");
 
   const handleInputChange = (event) => {
@@ -18,6 +18,6 @@ function App() {
       />
     </div>
   );
-}
+};
 
 export default App;

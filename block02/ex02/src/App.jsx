@@ -1,4 +1,3 @@
-import App from "./App";
 import Name from "./Name";
 import Surname from "./Surname";
 
