@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+h2 {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
